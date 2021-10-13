@@ -1,13 +1,24 @@
 {
   "name": "@pix/ember-testing-library",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "testing",
+    "ui",
+    "dom",
+    "unit",
+    "integration",
+    "functional",
+    "end-to-end",
+    "e2e"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:1024pix/ember-testing-library.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Pix",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -21,11 +32,14 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "npm-run-all lint test:*",
-    "test:ember": "ember test",
+    "test": "ember test",
+    "test:watch": "npm-run-all lint test:*",
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "@testing-library/dom": "^8.9.0",
+    "broccoli-funnel": "^3.0.8",
+    "ember-auto-import": "^1.11.3",
     "ember-cli-babel": "^7.26.6",
     "ember-cli-htmlbars": "^5.7.1"
   },
@@ -33,11 +47,8 @@
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.4.2",
     "@embroider/test-setup": "^0.43.5",
-    "@glimmer/component": "^1.0.4",
-    "@glimmer/tracking": "^1.0.4",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.11.3",
     "ember-cli": "~3.28.1",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-inject-live-reload": "^2.1.0",
