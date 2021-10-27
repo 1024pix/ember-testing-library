@@ -1,4 +1,4 @@
-@pix/ember-testing-library
+@1024pix/ember-testing-library
 ==============================================================================
 
 [Short description of the addon.]
@@ -16,7 +16,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install @pix/ember-testing-library
+ember install @1024pix/ember-testing-library
 ```
 
 
