@@ -1,5 +1,12 @@
 # ember-testing-library Changelog
 
+## v0.4.0 (27/10/2021)
+
+
+### :bug: Bug fix
+- [#4](https://github.com/1024pix/ember-testing-library/pull/4) [BUGFIX] Lancer le npm publish à la création de tag plutôt que la release
+- [#3](https://github.com/1024pix/ember-testing-library/pull/3) [BUGFIX] Réparation release npm
+
 ## v0.3.0 (27/10/2021)
 
 
