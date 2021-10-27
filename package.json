@@ -1,5 +1,5 @@
 {
-  "name": "@pix/ember-testing-library",
+  "name": "@1024pix/ember-testing-library",
   "version": "0.3.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:1024pix/ember-testing-library.git"
+    "url": "git+ssh://git@github.com/1024pix/ember-testing-library.git"
   },
   "license": "MIT",
   "author": "Pix",
@@ -85,5 +85,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/1024pix/ember-testing-library/issues"
+  },
+  "homepage": "https://github.com/1024pix/ember-testing-library#readme",
+  "main": "index.js"
 }
