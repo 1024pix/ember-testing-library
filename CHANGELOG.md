@@ -1,5 +1,11 @@
 # ember-testing-library Changelog
 
+## v0.4.1 (28/10/2021)
+
+
+### :coffee: Various
+- [#5](https://github.com/1024pix/ember-testing-library/pull/5) [DOC] Fixer les @pix au lieu de @1024pix
+
 ## v0.4.0 (27/10/2021)
 
 
