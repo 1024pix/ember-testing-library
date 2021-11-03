@@ -1,7 +1,7 @@
 @1024pix/ember-testing-library
 ==============================================================================
 
-[Short description of the addon.]
+Ember wrapper for [testing-library](https://testing-library.com/), using [dom-testing-library](https://github.com/testing-library/dom-testing-library)
 
 
 Compatibility
@@ -23,7 +23,13 @@ ember install @1024pix/ember-testing-library
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+A classic testing-library [API](https://testing-library.com/docs/dom-testing-library/api):
+- getScreen
+- visit
+- render
+- clickByName
+- clickByText
+- fillByLabel
 
 
 Contributing
