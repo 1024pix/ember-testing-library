@@ -5,7 +5,7 @@ import {
   render as renderHbs,
   visit as visitUrl,
 } from '@ember/test-helpers';
-import { within } from '@testing-library/dom';
+import { within as withinTL } from '@testing-library/dom';
 
 /**
  * Wrap the EmberJS container with DOM testing library.
@@ -14,7 +14,17 @@ import { within } from '@testing-library/dom';
  * @returns The EmberJS container wrapped by the DOM testing library.
  */
 export function getScreen() {
-  return within(getRootElement());
+  return withinTL(getRootElement());
+}
+
+/**
+ * Wrap the Testing-Library within function.
+ *
+ * @param element: DOM tree.
+ * @returns The inner DOM of the provided element.
+ */
+export function within(element) {
+  return withinTL(element);
 }
 
 /**
