@@ -93,11 +93,26 @@ export function fillByLabel(label, value, options) {
  *
  * @param {string} label Label linked to the dropdown.
  * @param {string} option Option value.
- * @param {*} options Testing library getByLabelText options.
+ * @param {*} options Testing library getByRole options.
  * @returns Promise of the filling.
  */
 export function selectByLabelAndOption(label, option, options) {
   const { getByRole } = getScreen();
   const element = getByRole('combobox', { ...options, name: label });
   return fillIn(element, option);
+}
+
+/**
+ * Select a radio button part of a radio group identified by its label .
+ *
+ * @param {string} label Label linked to the radio group.
+ * @param {string} option The radio button label.
+ * @param {*} options Testing library getByRole options.
+ * @returns Promise of the filling.
+ */
+export function selectOptionInRadioGroup(label, option, options) {
+  const { getByRole } = getScreen();
+  const parent = getByRole('radiogroup', { ...options, name: label });
+  const element = withinTL(parent).getByRole('radio', { name: option });
+  return click(element);
 }
