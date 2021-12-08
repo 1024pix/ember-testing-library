@@ -1,5 +1,11 @@
 # ember-testing-library Changelog
 
+## v0.5.0 (08/12/2021)
+
+
+### :rocket: Enhancement
+- [#7](https://github.com/1024pix/ember-testing-library/pull/7) [FEATURE] Ajout de plusieurs méthodes utilitaires (PIX-4002).
+
 ## v0.4.1 (28/10/2021)
 
 
