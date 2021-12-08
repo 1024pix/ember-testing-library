@@ -77,3 +77,17 @@ export function fillByLabel(label, value, options) {
   const element = getByLabelText(label, options);
   return fillIn(element, value);
 }
+
+/**
+ * Select an option in a dropdown with DOM element selected by a label.
+ *
+ * @param {string} label Label linked to the dropdown.
+ * @param {string} option Option value.
+ * @param {*} options Testing library getByLabelText options.
+ * @returns Promise of the filling.
+ */
+export function selectByLabelAndOption(label, option, options) {
+  const { getByRole } = getScreen();
+  const element = getByRole('combobox', { ...options, name: label });
+  return fillIn(element, option);
+}
