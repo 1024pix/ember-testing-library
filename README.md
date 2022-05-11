@@ -1,7 +1,12 @@
 @1024pix/ember-testing-library
 ==============================================================================
 
-[Short description of the addon.]
+The Ember Testing Library is a very lightweight solution for testing Ember components. It provides light utility functions on top of Ember built-in helpers, in a way that encourages better testing practices. Its primary guiding principle is:
+
+- The more your tests resemble the way your software is used, the more confidence they can give you.
+
+For more info, please visit [testing library guiding principles](
+https://testing-library.com/docs/guiding-principles).
 
 
 Compatibility
@@ -23,7 +28,6 @@ ember install @1024pix/ember-testing-library
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
 
 
 Contributing
