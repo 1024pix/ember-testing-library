@@ -1,7 +1,7 @@
 {
   "name": "@1024pix/ember-testing-library",
   "version": "0.6.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Package for Testing Library usage in Ember applications.",
   "keywords": [
     "ember-addon",
     "testing",
