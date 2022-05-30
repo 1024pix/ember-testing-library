@@ -30,6 +30,18 @@ Usage
 
 Ember testing library gives access to dom testing library queries in an Ember app. For more info on dom testing library queries, follow [Testing library doc](https://testing-library.com/docs/dom-testing-library/api/).
 
+The current API methods that can be used are as follows: 
+
+- getScreen
+- within
+- visit
+- render
+- clickByName
+- clickByText
+- fillByLabel
+- selectByLabelAndOption
+- selectOptionInRadioGroup
+
 Please note that Ember Testing Library does not include the userEvent package, and that you should therefore use Ember built-in test helpers to interact with components and/or DOM nodes in integration/acceptance tests.
 
 ###Acceptance test example: 
