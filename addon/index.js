@@ -7,6 +7,8 @@ import {
 } from '@ember/test-helpers';
 import { within as withinTL } from '@testing-library/dom';
 
+export * from '@testing-library/dom';
+
 /**
  * Wrap the EmberJS container with DOM testing library.
  * https://testing-library.com/docs/queries/about
