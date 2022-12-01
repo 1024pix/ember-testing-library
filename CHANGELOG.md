@@ -1,5 +1,11 @@
 # ember-testing-library Changelog
 
+## v0.6.0 (01/12/2022)
+
+
+### :coffee: Autre
+- [#9](https://github.com/1024pix/ember-testing-library/pull/9) [FEAT] Exposer toutes les méthodes de `testing-library`. 
+
 ## v0.5.0 (08/12/2021)
 
 
