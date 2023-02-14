@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd @pix/ember-testing-library`
+* `cd @1024pix/ember-testing-library`
 * `npm install`
 
 ## Linting

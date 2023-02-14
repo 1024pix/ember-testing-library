@@ -1,4 +1,4 @@
-import { render } from '@pix/ember-testing-library';
+import { render } from '@1024pix/ember-testing-library';
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { hbs } from 'ember-cli-htmlbars';
