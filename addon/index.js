@@ -5,9 +5,9 @@ import {
   render as renderHbs,
   visit as visitUrl,
 } from '@ember/test-helpers';
-import { within as withinTL } from '@testing-library/dom';
+import { within as withinTL } from '@testing-library/dom/dist/@testing-library/dom.umd.js';
 
-export * from '@testing-library/dom';
+export * from '@testing-library/dom/dist/@testing-library/dom.umd.js';
 
 /**
  * Wrap the EmberJS container with DOM testing library.
