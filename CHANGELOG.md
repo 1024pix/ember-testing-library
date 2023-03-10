@@ -1,5 +1,14 @@
 # ember-testing-library Changelog
 
+## v0.6.1 (10/03/2023)
+
+
+### :building_construction: Tech
+- [#11](https://github.com/1024pix/ember-testing-library/pull/11) [TECH] Spécifier les imports de testing-library (PIX-7411)
+
+### :coffee: Autre
+- [#10](https://github.com/1024pix/ember-testing-library/pull/10) Upgrade ember-cli
+
 ## v0.6.0 (01/12/2022)
 
 
