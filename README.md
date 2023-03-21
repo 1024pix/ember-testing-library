@@ -30,7 +30,7 @@ Usage
 
 Ember testing library gives access to dom testing library queries in an Ember app. For more info on dom testing library queries, follow [Testing library doc](https://testing-library.com/docs/dom-testing-library/api/).
 
-The current API methods that can be used are as follows: 
+The current API methods that can be used are as follows:
 
 - getScreen
 - within
@@ -44,33 +44,33 @@ The current API methods that can be used are as follows:
 
 Please note that Ember Testing Library does not include the userEvent package, and that you should therefore use Ember built-in test helpers to interact with components and/or DOM nodes in integration/acceptance tests.
 
-###Acceptance test example: 
+### Acceptance test example:
 ```js
 import { visit } from '@1024pix/ember-testing-library';
 import { click } from '@ember/test-helpers';
 
 test('it should disable the button when clicked', async function (assert) {
-  // given  
+  // given
   const screen = await visit('/home');
-    
+
   // when
   const button = screen.getByRole('button', {name: 'Send message'});
   await click(button);
-  
+
   // then
   assert.dom(button).isDisabled();
 });
 ```
 
-###Integration test example:
+### Integration test example:
 ```js
 import { render } from '@1024pix/ember-testing-library';
 import { click } from '@ember/test-helpers';
 
 test('it should disable the button when clicked', async function (assert) {
-  // given  
+  // given
   const screen = await render(hbs`<LoginForm />`);
-  
+
   // when
   const button = screen.getByRole('button', {name: 'Login'});
   await click(button);
