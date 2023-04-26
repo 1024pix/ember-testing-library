@@ -1,5 +1,15 @@
 # ember-testing-library Changelog
 
+## v0.6.2 (26/04/2023)
+
+
+### :building_construction: Tech
+- [#13](https://github.com/1024pix/ember-testing-library/pull/13) [TECH] Vérifie que nous sommes embroider-safe
+- [#12](https://github.com/1024pix/ember-testing-library/pull/12) [TECH] Ajout de la configuration circleci
+
+### :coffee: Autre
+- [#8](https://github.com/1024pix/ember-testing-library/pull/8) Mettre à jour le Readme avec une description et des exemples.
+
 ## v0.6.1 (10/03/2023)
 
 
