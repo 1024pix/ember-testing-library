@@ -48,7 +48,6 @@ Please note that Ember Testing Library does not include the userEvent package, a
 ```js
 import { visit } from '@1024pix/ember-testing-library';
 import { click } from '@ember/test-helpers';
-
 test('it should disable the button when clicked', async function (assert) {
   // given
   const screen = await visit('/home');
@@ -56,7 +55,6 @@ test('it should disable the button when clicked', async function (assert) {
   // when
   const button = screen.getByRole('button', {name: 'Send message'});
   await click(button);
-
   // then
   assert.dom(button).isDisabled();
 });
@@ -66,19 +64,17 @@ test('it should disable the button when clicked', async function (assert) {
 ```js
 import { render } from '@1024pix/ember-testing-library';
 import { click } from '@ember/test-helpers';
-
 test('it should disable the button when clicked', async function (assert) {
   // given
   const screen = await render(hbs`<LoginForm />`);
-
   // when
   const button = screen.getByRole('button', {name: 'Login'});
   await click(button);
-
   // then
   assert.dom(button).isDisabled();
 });
 ```
+
 
 Contributing
 ------------------------------------------------------------------------------
