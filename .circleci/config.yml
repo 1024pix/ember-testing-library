@@ -21,4 +21,4 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm test
-      - run: npx ember try:one embroider-safe
+      - run: cd test-app && npx ember try:one embroider-safe
