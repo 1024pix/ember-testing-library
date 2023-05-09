@@ -31,7 +31,8 @@
   "dependencies": {
     "@embroider/addon-shim": "^1.0.0",
     "@testing-library/dom": "^8.9.0",
-    "broccoli-funnel": "^3.0.8"
+    "broccoli-funnel": "^3.0.8",
+    "@ember/test-helpers": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
