@@ -39,5 +39,8 @@
   ],
   "engines": {
     "node": ">= 16"
+  },
+  "peerDependencies": {
+    "@ember/test-helpers": ">=2.9.3"
   }
 }
