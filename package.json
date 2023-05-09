@@ -1,7 +1,18 @@
 {
   "name": "@1024pix/ember-testing-library",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.6.2",
+  "description": "Package for Testing Library usage in Ember applications.",
+  "keywords": [
+    "ember-addon",
+    "testing",
+    "ui",
+    "dom",
+    "unit",
+    "integration",
+    "functional",
+    "end-to-end",
+    "e2e"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/1024pix/ember-testing-library.git"
