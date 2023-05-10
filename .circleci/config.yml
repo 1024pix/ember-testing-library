@@ -8,6 +8,12 @@ workflows:
   main:
     jobs:
       - test
+      - try-scenarios:
+          matrix:
+            parameters:
+              try-scenario:
+                - embroider-safe
+                - embroider-optimized
 
 jobs:
   test:
@@ -21,5 +27,17 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm test
-      - run: npx ember try:one embroider-safe
 
+  try-scenarios:
+    parameters:
+      try-scenario:
+        type: string
+    docker:
+      - image: cimg/node:16.19.0-browsers
+    resource_class: medium+
+    steps:
+      - checkout
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver
+      - run: npm ci
+      - run: npx ember try:one << parameters.try-scenario >>
