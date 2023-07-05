@@ -1,5 +1,14 @@
 # ember-testing-library Changelog
 
+## v0.7.0 (05/07/2023)
+
+
+### :building_construction: Tech
+- [#15](https://github.com/1024pix/ember-testing-library/pull/15) [TECH] Fait fonctionner le scenario embroider-optimized.
+
+### :bug: Correction
+- [#17](https://github.com/1024pix/ember-testing-library/pull/17) [BUGFIX] Spécifie la version acceptable de @testing-library/dom.
+
 ## v0.6.2 (26/04/2023)
 
 
