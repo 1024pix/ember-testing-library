@@ -1,5 +1,11 @@
 # ember-testing-library Changelog
 
+## v0.7.1 (07/07/2023)
+
+
+### :coffee: Autre
+- [#19](https://github.com/1024pix/ember-testing-library/pull/19) [BUMP] Update dependency webpack to v5.76.0 [SECURITY].
+
 ## v0.7.0 (05/07/2023)
 
 

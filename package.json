@@ -1,6 +1,6 @@
 {
   "name": "@1024pix/ember-testing-library",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Package for Testing Library usage in Ember applications.",
   "keywords": [
     "ember-addon",
