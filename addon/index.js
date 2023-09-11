@@ -118,3 +118,97 @@ export function selectOptionInRadioGroup(label, option, options) {
   const element = withinTL(parent).getByRole('radio', { name: option });
   return click(element);
 }
+
+function _cleanHtml(html) {
+  return html.replace('<!---->', '').trim();
+}
+
+/**
+ * Return an HTML element matching the string containing HTML passed as param
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns HTMLElement.
+ */
+export function getByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { getByText } = getScreen();
+  return getByText(matcherFunction);
+}
+
+/**
+ * Return an array of HTML element matching the string containing HTML passed as param
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns Array<HTMLElement>.
+ */
+export function getAllByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { getAllByText } = getScreen();
+  return getAllByText(matcherFunction);
+}
+
+/**
+ * Return HTML element matching the string containing HTML passed as param or nothing
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns HTMLElement.
+ */
+export function queryByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { queryByText } = getScreen();
+  return queryByText(matcherFunction);
+}
+
+/**
+ * Return an array of HTML element matching the string containing HTML passed as param or nothing
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns Array<HTMLElement>.
+ */
+export function queryAllByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { queryAllByText } = getScreen();
+  return queryAllByText(matcherFunction);
+}
+
+/**
+ * Return a Promise of HTML element matching the string containing HTML passed as param
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns Promise(HTMLElement).
+ */
+export function findByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { findByText } = getScreen();
+  return findByText(matcherFunction);
+}
+
+/**
+ * Return a Promise of HTML element array matching the string containing HTML passed as param
+ *
+ * @param {string} string containing HTML to look for in the DOM.
+ * @param {*} options Testing library getByText options.
+ * @returns Promise(Array<HTMLElement>).
+ */
+export function findAllByTextWithHtml(html) {
+  const matcherFunction = (_, element) => {
+    return _cleanHtml(element.innerHTML) === html;
+  };
+  const { findAllByText } = getScreen();
+  return findAllByText(matcherFunction);
+}
