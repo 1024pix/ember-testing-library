@@ -41,6 +41,12 @@ The current API methods that can be used are as follows:
 - fillByLabel
 - selectByLabelAndOption
 - selectOptionInRadioGroup
+- getByTextWithHtml
+- getAllByTextWithHtml
+- queryByTextWithHtml
+- queryAllByTextWithHtml
+- findByTextWithHtml
+- findAllByTextWithHtml
 
 Please note that Ember Testing Library does not include the userEvent package, and that you should therefore use Ember built-in test helpers to interact with components and/or DOM nodes in integration/acceptance tests.
 
