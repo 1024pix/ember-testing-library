@@ -11,7 +11,7 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { hbs } from 'ember-cli-htmlbars';
 
-module.only('Integration | testing-library', function (hooks) {
+module('Integration | testing-library', function (hooks) {
   setupRenderingTest(hooks);
 
   module('#render', function () {
