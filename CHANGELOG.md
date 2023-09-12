@@ -1,5 +1,11 @@
 # ember-testing-library Changelog
 
+## v0.8.1 (12/09/2023)
+
+
+### :building_construction: Tech
+- [#71](https://github.com/1024pix/ember-testing-library/pull/71) [TECH] Rétrograde @testing-library/dom en version 8.13.0.
+
 ## v0.8.0 (12/09/2023)
 
 
