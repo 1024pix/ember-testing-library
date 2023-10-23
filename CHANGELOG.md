@@ -1,5 +1,20 @@
 # ember-testing-library Changelog
 
+## v0.9.0 (23/10/2023)
+
+
+### :building_construction: Tech
+- [#75](https://github.com/1024pix/ember-testing-library/pull/75) [TECH] Ajoute le support node@v20.
+
+### :arrow_up: Montée de version
+- [#79](https://github.com/1024pix/ember-testing-library/pull/79) [BUMP] Update dependency node to v20.8.1.
+- [#77](https://github.com/1024pix/ember-testing-library/pull/77) [BUMP] Update dependency qunit-dom to v3 (dossier racine).
+- [#78](https://github.com/1024pix/ember-testing-library/pull/78) [BUMP] Update dependency node to v18.18.2.
+- [#76](https://github.com/1024pix/ember-testing-library/pull/76) [BUMP] Update dependency node to v18.18.1.
+- [#74](https://github.com/1024pix/ember-testing-library/pull/74) [BUMP] Update dependency node to v18.18.0.
+- [#73](https://github.com/1024pix/ember-testing-library/pull/73) [BUMP] Update browser-tools orb to v1.4.6 (.circleci).
+- [#72](https://github.com/1024pix/ember-testing-library/pull/72) [BUMP] Update dependency ember-qunit to v8 (dossier racine).
+
 ## v0.8.1 (12/09/2023)
 
 
