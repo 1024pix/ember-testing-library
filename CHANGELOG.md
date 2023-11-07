@@ -1,5 +1,20 @@
 # ember-testing-library Changelog
 
+## v1.0.0 (07/11/2023)
+
+
+### :building_construction: Tech
+- [#85](https://github.com/1024pix/ember-testing-library/pull/85) [TECH] Suppression du support Node 16 et Node 18 .
+
+### :arrow_up: Montée de version
+- [#87](https://github.com/1024pix/ember-testing-library/pull/87) [BUMP] Lock file maintenance (dossier racine).
+- [#81](https://github.com/1024pix/ember-testing-library/pull/81) [BUMP] Update actions/setup-node action to v4 (workflows).
+- [#83](https://github.com/1024pix/ember-testing-library/pull/83) [BUMP] Lock file maintenance (dossier racine).
+- [#86](https://github.com/1024pix/ember-testing-library/pull/86) [BUMP] Update Node.js to ^20.9.0.
+- [#84](https://github.com/1024pix/ember-testing-library/pull/84) [BUMP] Update Node.js to v20.9.0.
+- [#82](https://github.com/1024pix/ember-testing-library/pull/82) [BUMP] Update dependency node to v20.9.0.
+- [#80](https://github.com/1024pix/ember-testing-library/pull/80) [BUMP] Update Node.js to v20.8.1.
+
 ## v0.9.0 (23/10/2023)
 
 
