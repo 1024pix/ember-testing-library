@@ -1,5 +1,23 @@
 # ember-testing-library Changelog
 
+## v1.1.0 (18/03/2024)
+
+
+### :rocket: Amélioration
+- [#98](https://github.com/1024pix/ember-testing-library/pull/98) [FEATURE] Ajout du role combobox a la liste des roles cherchés dans `clickByName`.
+
+### :arrow_up: Montée de version
+- [#90](https://github.com/1024pix/ember-testing-library/pull/90) [BUMP] Lock file maintenance (dossier racine).
+- [#97](https://github.com/1024pix/ember-testing-library/pull/97) [BUMP] Update dependency npm-run-all2 to v6 (dossier racine).
+- [#95](https://github.com/1024pix/ember-testing-library/pull/95) [BUMP] Update node.
+- [#94](https://github.com/1024pix/ember-testing-library/pull/94) [BUMP] Replace dependency npm-run-all with npm-run-all2 ^5.0.0 (dossier racine).
+- [#96](https://github.com/1024pix/ember-testing-library/pull/96) [BUMP] Update browser-tools orb to v1.4.8 (.circleci).
+- [#93](https://github.com/1024pix/ember-testing-library/pull/93) [BUMP] Update dependency eslint-plugin-ember to v12 (dossier racine).
+- [#92](https://github.com/1024pix/ember-testing-library/pull/92) [BUMP] Update dependency node to v20.11.0.
+- [#91](https://github.com/1024pix/ember-testing-library/pull/91) [BUMP] Update Node.js to v20.11.0.
+- [#89](https://github.com/1024pix/ember-testing-library/pull/89) [BUMP] Update dependency node to v20.10.0.
+- [#88](https://github.com/1024pix/ember-testing-library/pull/88) [BUMP] Update Node.js to v20.10.0.
+
 ## v1.0.0 (07/11/2023)
 
 
