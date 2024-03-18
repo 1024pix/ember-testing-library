@@ -60,7 +60,10 @@ export async function render(template) {
  */
 export function clickByName(name, options = {}) {
   const { getByRole } = getScreen();
-  const element = getByRole(/button|link|radio|checkbox/, { ...options, name });
+  const element = getByRole(/button|link|radio|checkbox|combobox/, {
+    ...options,
+    name,
+  });
   return click(element);
 }
 
