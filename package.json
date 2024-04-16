@@ -37,7 +37,7 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "@testing-library/dom": "8.13.0",
+    "@testing-library/dom": "8.20.1",
     "broccoli-funnel": "^3.0.8",
     "ember-auto-import": "^2.6.0",
     "ember-cli-babel": "^8.0.0",
