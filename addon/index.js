@@ -59,12 +59,31 @@ export async function render(template) {
  * @returns Promise of the click.
  */
 export function clickByName(name, options = {}) {
-  const { getByRole } = getScreen();
-  const element = getByRole(/button|link|radio|checkbox|combobox/, {
-    ...options,
-    name,
-  });
-  return click(element);
+  const { queryByRole } = getScreen();
+  const buttonElement = queryByRole('button', { ...options, name });
+  if (buttonElement !== null) {
+    return click(buttonElement);
+  }
+
+  const linkElement = queryByRole('link', { ...options, name });
+  if (linkElement !== null) {
+    return click(linkElement);
+  }
+
+  const radioElement = queryByRole('radio', { ...options, name });
+  if (radioElement !== null) {
+    return click(radioElement);
+  }
+  const checkboxElement = queryByRole('checkbox', { ...options, name });
+  if (checkboxElement !== null) {
+    return click(checkboxElement);
+  }
+  const comboboxElement = queryByRole('combobox', { ...options, name });
+  if (comboboxElement !== null) {
+    return click(comboboxElement);
+  }
+
+  throw new Error(`Element with name "${name}" could not be found`);
 }
 
 /**
