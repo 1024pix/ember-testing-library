@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/1024pix/ember-testing-library/compare/v1.1.0...v2.0.0) (2024-06-11)
+
+### :boom: BREAKING CHANGE
+
+- [#114](https://github.com/1024pix/ember-testing-library/pull/114) Update dependency @testing-library/dom to v9 (dossier racine) 
+
+### :arrow_up: Montée de version
+
+- [#110](https://github.com/1024pix/ember-testing-library/pull/110) Lock file maintenance (dossier racine) 
+- [#106](https://github.com/1024pix/ember-testing-library/pull/106) Lock file maintenance (dossier racine) 
+- [#102](https://github.com/1024pix/ember-testing-library/pull/102) Lock file maintenance (dossier racine) 
+- [#100](https://github.com/1024pix/ember-testing-library/pull/100) Lock file maintenance (dossier racine) 
+- [#112](https://github.com/1024pix/ember-testing-library/pull/112) Update dependency @testing-library/dom to v8.20.1 (dossier racine) 
+- [#103](https://github.com/1024pix/ember-testing-library/pull/103) Update dependency node to v20.12.0 
+- [#107](https://github.com/1024pix/ember-testing-library/pull/107) Update dependency node to v20.12.1 
+- [#115](https://github.com/1024pix/ember-testing-library/pull/115) Update node 
+- [#101](https://github.com/1024pix/ember-testing-library/pull/101) Update Node.js to v20.12.0 
+- [#104](https://github.com/1024pix/ember-testing-library/pull/104) Update Node.js to v20.12.1 
+- [#108](https://github.com/1024pix/ember-testing-library/pull/108) Update Node.js to v20.12.2
+
 # ember-testing-library Changelog
 
 ## v1.1.0 (18/03/2024)
