@@ -1,0 +1,94 @@
+{
+  "name": "@1024pix/ember-testing-library",
+  "version": "2.0.0",
+  "description": "Package for Testing Library usage in Ember applications.",
+  "keywords": [
+    "ember-addon",
+    "testing",
+    "ui",
+    "dom",
+    "unit",
+    "integration",
+    "functional",
+    "end-to-end",
+    "e2e"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/1024pix/ember-testing-library.git"
+  },
+  "license": "MIT",
+  "author": "Pix",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "lint": "concurrently 'npm:lint:*(!fix)' --names 'lint:'",
+    "lint:fix": "concurrently 'npm:lint:*:fix' --names 'fix:'",
+    "lint:hbs": "ember-template-lint . --no-error-on-unmatched-pattern",
+    "lint:hbs:fix": "ember-template-lint . --fix --no-error-on-unmatched-pattern",
+    "lint:js": "eslint . --cache",
+    "lint:js:fix": "eslint . --fix",
+    "prepack": "rollup --config",
+    "start": "rollup --config --watch",
+    "test": "echo 'A v2 addon does not have tests, run tests in test-app'"
+  },
+  "dependencies": {
+    "@embroider/addon-shim": "^1.8.9",
+    "@testing-library/dom": "9.3.4",
+    "broccoli-funnel": "^3.0.8",
+    "decorator-transforms": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/eslint-parser": "^7.24.7",
+    "@babel/runtime": "^7.24.7",
+    "@embroider/addon-dev": "^4.3.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "babel-plugin-ember-template-compilation": "^2.2.5",
+    "concurrently": "^8.2.2",
+    "ember-template-lint": "^6.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-ember": "^12.1.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^17.8.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.1",
+    "rollup": "^4.18.0",
+    "rollup-plugin-copy": "^3.5.0"
+  },
+  "overrides": {
+    "testem": {
+      "fireworm": "^0.7.2"
+    }
+  },
+  "engines": {
+    "node": "^20.14.0"
+  },
+  "ember": {
+    "edition": "octane"
+  },
+  "ember-addon": {
+    "app-js": {},
+    "main": "addon-main.cjs",
+    "type": "addon",
+    "version": 2
+  },
+  "bugs": {
+    "url": "https://github.com/1024pix/ember-testing-library/issues"
+  },
+  "homepage": "https://github.com/1024pix/ember-testing-library#readme",
+  "main": "index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js",
+    "./addon-main.js": "./addon-main.cjs"
+  },
+  "files": [
+    "addon-main.cjs",
+    "dist"
+  ]
+}
