@@ -1,3 +1,9 @@
+## [2.0.4](https://github.com/1024pix/ember-testing-library/compare/v2.0.3...v2.0.4) (2024-06-27)
+
+### :arrow_up: Montée de version
+
+- [#125](https://github.com/1024pix/ember-testing-library/pull/125) Update dependency node to v20.15.0
+
 ## [2.0.3](https://github.com/1024pix/ember-testing-library/compare/v2.0.2...v2.0.3) (2024-06-24)
 
 ### :arrow_up: Montée de version
