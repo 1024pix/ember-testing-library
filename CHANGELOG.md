@@ -1,3 +1,9 @@
+## [2.0.7](https://github.com/1024pix/ember-testing-library/compare/v2.0.6...v2.0.7) (2024-07-16)
+
+### :building_construction: Tech
+
+- [#128](https://github.com/1024pix/ember-testing-library/pull/128) Ajoute le support node@v22
+
 ## [2.0.6](https://github.com/1024pix/ember-testing-library/compare/v2.0.5...v2.0.6) (2024-07-08)
 
 ### :arrow_up: Montée de version
