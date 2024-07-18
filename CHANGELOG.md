@@ -1,3 +1,9 @@
+## [2.0.8](https://github.com/1024pix/ember-testing-library/compare/v2.0.7...v2.0.8) (2024-07-18)
+
+### :arrow_up: Montée de version
+
+- [#121](https://github.com/1024pix/ember-testing-library/pull/121) Update dependency ember-resolver to v12 (dossier racine)
+
 ## [2.0.7](https://github.com/1024pix/ember-testing-library/compare/v2.0.6...v2.0.7) (2024-07-16)
 
 ### :building_construction: Tech
