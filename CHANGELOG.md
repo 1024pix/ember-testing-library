@@ -1,3 +1,9 @@
+# [3.0.0](https://github.com/1024pix/ember-testing-library/compare/v2.0.8...v3.0.0) (2024-07-19)
+
+### :boom: BREAKING CHANGE
+
+- [#113](https://github.com/1024pix/ember-testing-library/pull/113) Update dependency @testing-library/dom to v10 (dossier racine)
+
 ## [2.0.8](https://github.com/1024pix/ember-testing-library/compare/v2.0.7...v2.0.8) (2024-07-18)
 
 ### :arrow_up: Montée de version
