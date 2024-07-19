@@ -1,3 +1,9 @@
+## [3.0.1](https://github.com/1024pix/ember-testing-library/compare/v3.0.0...v3.0.1) (2024-07-19)
+
+### :arrow_up: Montée de version
+
+- [#129](https://github.com/1024pix/ember-testing-library/pull/129) Update dependency @ember/string to v4 (dossier racine)
+
 # [3.0.0](https://github.com/1024pix/ember-testing-library/compare/v2.0.8...v3.0.0) (2024-07-19)
 
 ### :boom: BREAKING CHANGE
