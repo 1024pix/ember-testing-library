@@ -1,3 +1,9 @@
+## [3.0.3](https://github.com/1024pix/ember-testing-library/compare/v3.0.2...v3.0.3) (2024-07-29)
+
+### :arrow_up: Montée de version
+
+- [#131](https://github.com/1024pix/ember-testing-library/pull/131) Update dependency ember-cli to v5 (dossier racine)
+
 ## [3.0.2](https://github.com/1024pix/ember-testing-library/compare/v3.0.1...v3.0.2) (2024-07-22)
 
 ### :arrow_up: Montée de version
