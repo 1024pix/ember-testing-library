@@ -1,3 +1,9 @@
+## [3.0.4](https://github.com/1024pix/ember-testing-library/compare/v3.0.3...v3.0.4) (2024-08-05)
+
+### :arrow_up: Montée de version
+
+- [#132](https://github.com/1024pix/ember-testing-library/pull/132) Update Node.js to v20.16.0
+
 ## [3.0.3](https://github.com/1024pix/ember-testing-library/compare/v3.0.2...v3.0.3) (2024-07-29)
 
 ### :arrow_up: Montée de version
