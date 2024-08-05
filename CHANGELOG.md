@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/1024pix/ember-testing-library/compare/v3.0.5...v3.0.6) (2024-08-05)
+
+### :arrow_up: Montée de version
+
+- [#134](https://github.com/1024pix/ember-testing-library/pull/134) Lock file maintenance 
+- [#135](https://github.com/1024pix/ember-testing-library/pull/135) Update dependency node to v20.16.0
+
 ## [3.0.5](https://github.com/1024pix/ember-testing-library/compare/v3.0.4...v3.0.5) (2024-08-05)
 
 ### :arrow_up: Montée de version
