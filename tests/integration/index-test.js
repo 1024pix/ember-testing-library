@@ -60,7 +60,7 @@ module('Integration | testing-library', function (hooks) {
 </ul>`);
 
       const result = getAllByTextWithHtml('Membre <a href="#">voir profil</a>');
-      assert.equal(result.length, 2);
+      assert.strictEqual(result.length, 2);
     });
 
     test('should throw an error', async function (assert) {
@@ -95,7 +95,7 @@ module('Integration | testing-library', function (hooks) {
 </ul>`);
 
       const result = queryByTextWithHtml('Admin <a href="#">voir profil</a>');
-      assert.equal(result, null);
+      assert.strictEqual(result, null);
     });
   });
 
@@ -119,7 +119,7 @@ module('Integration | testing-library', function (hooks) {
       const result = queryAllByTextWithHtml(
         'Admin <a href="#">voir profil</a>',
       );
-      assert.equal(result.length, 0);
+      assert.strictEqual(result.length, 0);
     });
   });
 
@@ -158,7 +158,7 @@ module('Integration | testing-library', function (hooks) {
       const result = await findAllByTextWithHtml(
         'Membre <a href="#">voir profil</a>',
       );
-      assert.equal(result.length, 2);
+      assert.strictEqual(result.length, 2);
     });
 
     test('should return null if element is not present', async function (assert) {
