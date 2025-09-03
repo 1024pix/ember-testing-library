@@ -1,3 +1,20 @@
+## [3.0.7](https://github.com/1024pix/ember-testing-library/compare/v3.0.6...v3.0.7) (2025-09-03)
+
+### :arrow_up: Montée de version
+
+- [#159](https://github.com/1024pix/ember-testing-library/pull/159) Update actions/checkout action to v5 (workflows) 
+- [#161](https://github.com/1024pix/ember-testing-library/pull/161) Update dependency @testing-library/dom to v10.4.1 (dossier racine) 
+- [#166](https://github.com/1024pix/ember-testing-library/pull/166) Update dependency browser-tools to v1.5.3 (.circleci) 
+- [#167](https://github.com/1024pix/ember-testing-library/pull/167) Update dependency ember-load-initializers to v3 (dossier racine) 
+- [#162](https://github.com/1024pix/ember-testing-library/pull/162) Update dependency ember-page-title to v9 (dossier racine) 
+- [#163](https://github.com/1024pix/ember-testing-library/pull/163) Update dependency ember-resolver to v13 (dossier racine) 
+- [#164](https://github.com/1024pix/ember-testing-library/pull/164) Update dependency ember-template-lint to v7 (dossier racine) 
+- [#168](https://github.com/1024pix/ember-testing-library/pull/168) Update dependency eslint-config-prettier to v10 (dossier racine) 
+- [#165](https://github.com/1024pix/ember-testing-library/pull/165) Update dependency npm-run-all2 to v7 (dossier racine) 
+- [#158](https://github.com/1024pix/ember-testing-library/pull/158) Update node to v22 (major) 
+
+### :coffee: Autre
+
 ## [3.0.6](https://github.com/1024pix/ember-testing-library/compare/v3.0.5...v3.0.6) (2024-08-05)
 
 ### :arrow_up: Montée de version
