@@ -1,3 +1,9 @@
+## [3.0.9](https://github.com/1024pix/ember-testing-library/compare/v3.0.8...v3.0.9) (2025-09-04)
+
+### :arrow_up: Montée de version
+
+- [#170](https://github.com/1024pix/ember-testing-library/pull/170) Update dependency browser-tools to v2 (.circleci)
+
 ## [3.0.8](https://github.com/1024pix/ember-testing-library/compare/v3.0.7...v3.0.8) (2025-09-03)
 
 ### :arrow_up: Montée de version
