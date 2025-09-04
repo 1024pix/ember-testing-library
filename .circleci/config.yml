@@ -1,23 +1,72 @@
 version: 2.1
 
 orbs:
-  browser-tools: circleci/browser-tools@1.5.3
+  browser-tools: circleci/browser-tools@2.3.1
+
+executors:
+  node-browsers-docker:
+    parameters:
+      node-version:
+        # renovate datasource=node-version depName=node
+        default: 22.18.0
+        type: string
+    docker:
+      - image: cimg/node:<<parameters.node-version>>-browsers
+    resource_class: small
 
 workflows:
   version: 2
-  main:
+  build-and-test:
     jobs:
-      - test
+      - checkout:
+          context: EmberTestingLibrary
+      - lint:
+          context: EmberTestingLibrary
+          requires:
+            - checkout
+      - test:
+          context: EmberTestingLibrary
+          requires:
+            - checkout
 
 jobs:
-  test:
-    docker:
-      - image: cimg/node:22.18.0
-    resource_class: medium+
+  checkout:
+    executor:
+      name: node-browsers-docker
+    working_directory: ~/ember-testing-library
     steps:
+      - attach_workspace:
+          at: ~/ember-testing-library
       - checkout
-      - browser-tools/install-chrome
-      - browser-tools/install-chromedriver
+      - run: cat package*.json > cachekey
+      - restore_cache:
+          keys:
+            - v7-npm-{{ checksum "cachekey" }}
       - run: npm ci
+      - save_cache:
+          key: v7-npm-{{ checksum "cachekey" }}
+          paths:
+            - ~/.npm
+      - persist_to_workspace:
+          root: ~/ember-testing-library
+          paths:
+            - .
+
+  lint:
+    executor: node-browsers-docker
+    working_directory: ~/ember-testing-library
+    steps:
+      - attach_workspace:
+          at: ~/ember-testing-library
       - run: npm run lint
-      - run: npm test
+
+  test:
+    executor: node-browsers-docker
+    resource_class: medium+
+    working_directory: ~/ember-testing-library
+    steps:
+      - attach_workspace:
+          at: ~/ember-testing-library
+      - browser-tools/install_chrome
+      - browser-tools/install_chromedriver
+      - run: npm run test
