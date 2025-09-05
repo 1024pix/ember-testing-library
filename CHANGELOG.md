@@ -1,3 +1,9 @@
+## [3.0.10](https://github.com/1024pix/ember-testing-library/compare/v3.0.9...v3.0.10) (2025-09-05)
+
+### :arrow_up: Montée de version
+
+- [#144](https://github.com/1024pix/ember-testing-library/pull/144) Update dependency eslint to v9 (dossier racine)
+
 ## [3.0.9](https://github.com/1024pix/ember-testing-library/compare/v3.0.8...v3.0.9) (2025-09-04)
 
 ### :arrow_up: Montée de version
