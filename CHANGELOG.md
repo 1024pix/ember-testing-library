@@ -1,3 +1,9 @@
+## [3.0.12](https://github.com/1024pix/ember-testing-library/compare/v3.0.11...v3.0.12) (2025-09-05)
+
+### :arrow_up: Montée de version
+
+- [#174](https://github.com/1024pix/ember-testing-library/pull/174) Update dependency npm-run-all2 to v8 (dossier racine)
+
 ## [3.0.11](https://github.com/1024pix/ember-testing-library/compare/v3.0.10...v3.0.11) (2025-09-05)
 
 ### :arrow_up: Montée de version
