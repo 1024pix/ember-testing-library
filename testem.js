@@ -25,10 +25,10 @@ const config = {
 
 module.exports = process.env.CI
   ? {
-    ...config,
-    reporter: 'xunit',
-    report_file: `${
-      process.env.RESULTS_PATH ?? './test-results/'
-    }/report.xml`,
-  }
+      ...config,
+      reporter: 'xunit',
+      report_file: `${
+        process.env.RESULTS_PATH ?? './test-results/'
+      }/report.xml`,
+    }
   : config;
