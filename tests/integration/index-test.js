@@ -1,28 +1,28 @@
 import {
-  render,
-  getByTextWithHtml,
-  getAllByTextWithHtml,
-  queryByTextWithHtml,
-  queryAllByTextWithHtml,
-  findByTextWithHtml,
   findAllByTextWithHtml,
+  findByTextWithHtml,
+  getAllByTextWithHtml,
+  getByTextWithHtml,
+  queryAllByTextWithHtml,
+  queryByTextWithHtml,
+  render,
 } from '@1024pix/ember-testing-library';
-import { module, test } from 'qunit';
-import { setupRenderingTest } from 'ember-qunit';
 import { hbs } from 'ember-cli-htmlbars';
+import { setupRenderingTest } from 'ember-qunit';
+import { module, test } from 'qunit';
 
-module('Integration | testing-library', function (hooks) {
+module('Integration | testing-library', function(hooks) {
   setupRenderingTest(hooks);
 
-  module('#render', function () {
-    test('it should render and return screen', async function (assert) {
+  module('#render', function() {
+    test('it should render and return screen', async function(assert) {
       const screen = await render(hbs`<div>Hello</div>`);
       assert.ok(screen.getByText('Hello'));
     });
   });
 
-  module('#getByTextWithHtml', function () {
-    test('should return element which contain string with html in it', async function (assert) {
+  module('#getByTextWithHtml', function() {
+    test('should return element which contain string with html in it', async function(assert) {
       await render(hbs`<div>
       Le niveau 7 est enfin disponible ! Vous pouvez en apprendre plus via <a href="https://pix.fr/actualites/decouvrez-le-niveau-7-des-maintenant-sur-pix" class="link" target="_blank" rel="noopener noreferrer">cette actualité</a>.
 {{!----}}
@@ -35,7 +35,7 @@ module('Integration | testing-library', function (hooks) {
       );
     });
 
-    test('should throw an error', async function (assert) {
+    test('should throw an error', async function(assert) {
       await render(hbs`<div>
       Le niveau 7 est enfin disponible ! Vous pouvez en apprendre plus via <a href="https://pix.fr/actualites/decouvrez-le-niveau-7-des-maintenant-sur-pix" class="link" target="_blank" rel="noopener noreferrer">cette actualité</a>.
 {{!----}}
@@ -43,7 +43,7 @@ module('Integration | testing-library', function (hooks) {
 
       try {
         getByTextWithHtml(
-          `Cette chaîne n'est pas présente ! Vous pouvez en apprendre plus via <a href="https://pix.fr/actualites/decouvrez-le-niveau-7-des-maintenant-sur-pix" class="link" target="_blank" rel="noopener noreferrer">cette actualité</a>.`,
+          'Cette chaîne n\'est pas présente ! Vous pouvez en apprendre plus via <a href="https://pix.fr/actualites/decouvrez-le-niveau-7-des-maintenant-sur-pix" class="link" target="_blank" rel="noopener noreferrer">cette actualité</a>.',
         );
       } catch (err) {
         assert.ok(err);
@@ -51,8 +51,8 @@ module('Integration | testing-library', function (hooks) {
     });
   });
 
-  module('#getAllByTextWithHtml', function () {
-    test('should return an array of element which contain string with html in it', async function (assert) {
+  module('#getAllByTextWithHtml', function() {
+    test('should return an array of element which contain string with html in it', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -63,7 +63,7 @@ module('Integration | testing-library', function (hooks) {
       assert.strictEqual(result.length, 2);
     });
 
-    test('should throw an error', async function (assert) {
+    test('should throw an error', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -77,8 +77,8 @@ module('Integration | testing-library', function (hooks) {
     });
   });
 
-  module('#queryByTextWithHtml', function () {
-    test('should return element which contain string with html in it', async function (assert) {
+  module('#queryByTextWithHtml', function() {
+    test('should return element which contain string with html in it', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -88,7 +88,7 @@ module('Integration | testing-library', function (hooks) {
       assert.ok(queryByTextWithHtml('Admin <a href="#">voir profil</a>'));
     });
 
-    test('should return null if element is not present', async function (assert) {
+    test('should return null if element is not present', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -99,8 +99,8 @@ module('Integration | testing-library', function (hooks) {
     });
   });
 
-  module('#queryAllByTextWithHtml', function () {
-    test('should return element which contain string with html in it', async function (assert) {
+  module('#queryAllByTextWithHtml', function() {
+    test('should return element which contain string with html in it', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -110,7 +110,7 @@ module('Integration | testing-library', function (hooks) {
       assert.ok(queryAllByTextWithHtml('Membre <a href="#">voir profil</a>'));
     });
 
-    test('should return null if elements are not present', async function (assert) {
+    test('should return null if elements are not present', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -123,8 +123,8 @@ module('Integration | testing-library', function (hooks) {
     });
   });
 
-  module('#findByTextWithHtml', function () {
-    test('should return element which contain string with html in it', async function (assert) {
+  module('#findByTextWithHtml', function() {
+    test('should return element which contain string with html in it', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -134,7 +134,7 @@ module('Integration | testing-library', function (hooks) {
       assert.ok(await findByTextWithHtml('Admin <a href="#">voir profil</a>'));
     });
 
-    test('should return null if element is not present', async function (assert) {
+    test('should return null if element is not present', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -148,8 +148,8 @@ module('Integration | testing-library', function (hooks) {
     });
   });
 
-  module('#findAllByTextWithHtml', function () {
-    test('should return element which contain string with html in it', async function (assert) {
+  module('#findAllByTextWithHtml', function() {
+    test('should return element which contain string with html in it', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
@@ -161,7 +161,7 @@ module('Integration | testing-library', function (hooks) {
       assert.strictEqual(result.length, 2);
     });
 
-    test('should return null if element is not present', async function (assert) {
+    test('should return null if element is not present', async function(assert) {
       await render(hbs`<ul>
   <li>Membre <a href="#">voir profil</a></li>
   <li>Membre <a href="#">voir profil</a></li>
