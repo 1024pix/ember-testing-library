@@ -1,7 +1,7 @@
 import {
-  getRootElement,
   click,
   fillIn,
+  getRootElement,
   render as renderHbs,
   visit as visitUrl,
 } from '@ember/test-helpers';
