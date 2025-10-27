@@ -1,3 +1,9 @@
+## [3.0.23](https://github.com/1024pix/ember-testing-library/compare/v3.0.22...v3.0.23) (2025-10-27)
+
+### :arrow_up: Montée de version
+
+- [#187](https://github.com/1024pix/ember-testing-library/pull/187) Lock file maintenance (dossier racine)
+
 ## [3.0.22](https://github.com/1024pix/ember-testing-library/compare/v3.0.21...v3.0.22) (2025-10-27)
 
 ### :arrow_up: Montée de version
