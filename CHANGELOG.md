@@ -1,3 +1,10 @@
+## [3.0.26](https://github.com/1024pix/ember-testing-library/compare/v3.0.25...v3.0.26) (2026-01-19)
+
+### :building_construction: Tech
+
+- [#192](https://github.com/1024pix/ember-testing-library/pull/192) Contournement du TransitionAborted dans le visit de ember-test-helpers 
+- [#191](https://github.com/1024pix/ember-testing-library/pull/191) Mise en place du trusted publishing de npm
+
 ## [3.0.25](https://github.com/1024pix/ember-testing-library/compare/v3.0.24...v3.0.25) (2025-11-03)
 
 ### :arrow_up: Montée de version
