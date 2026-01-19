@@ -1,3 +1,9 @@
+## [3.0.27](https://github.com/1024pix/ember-testing-library/compare/v3.0.26...v3.0.27) (2026-01-19)
+
+### :bug: Correction
+
+- [#193](https://github.com/1024pix/ember-testing-library/pull/193) Workflow de release
+
 ## [3.0.26](https://github.com/1024pix/ember-testing-library/compare/v3.0.25...v3.0.26) (2026-01-19)
 
 ### :building_construction: Tech
