@@ -3,6 +3,7 @@ import {
   fillIn,
   getRootElement,
   render as renderHbs,
+  settled,
   visit as visitUrl,
 } from '@ember/test-helpers';
 import { within as withinTL } from '@testing-library/dom/dist/@testing-library/dom.umd.js';
@@ -36,7 +37,16 @@ export function within(element) {
  * @returns DOM testing library helpers for the given page URL.
  */
 export async function visit(url) {
-  await visitUrl(url);
+  try {
+    await visitUrl(url);
+  } catch (e) {
+    // Workaround for test helper issue: https://github.com/emberjs/ember-test-helpers/issues/332
+    if (e.message !== 'TransitionAborted') {
+      throw e;
+    }
+  }
+  await settled();
+
   return getScreen();
 }
 
