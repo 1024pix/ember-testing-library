@@ -48,7 +48,7 @@
     "@babel/eslint-parser": "^7.11.0",
     "@babel/plugin-proposal-decorators": "^7.20.0",
     "@ember/optional-features": "^2.1.0",
-    "@ember/test-helpers": "^3.0.0",
+    "@ember/test-helpers": "^4.0.0",
     "@embroider/test-setup": "^4.0.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-cli": "^6.0.0",
