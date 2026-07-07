@@ -1,3 +1,9 @@
+## [3.0.28](https://github.com/1024pix/ember-testing-library/compare/v3.0.27...v3.0.28) (2026-07-07)
+
+### :arrow_up: Montée de version
+
+- [#160](https://github.com/1024pix/ember-testing-library/pull/160) Update dependency @ember/test-helpers to v4 (dossier racine)
+
 ## [3.0.27](https://github.com/1024pix/ember-testing-library/compare/v3.0.26...v3.0.27) (2026-01-19)
 
 ### :bug: Correction
