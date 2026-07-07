@@ -1,3 +1,9 @@
+## [3.0.33](https://github.com/1024pix/ember-testing-library/compare/v3.0.32...v3.0.33) (2026-07-07)
+
+### :arrow_up: Montée de version
+
+- [#194](https://github.com/1024pix/ember-testing-library/pull/194) Update dependency webpack to v5.104.1 [SECURITY]
+
 ## [3.0.32](https://github.com/1024pix/ember-testing-library/compare/v3.0.31...v3.0.32) (2026-07-07)
 
 ### :arrow_up: Montée de version
