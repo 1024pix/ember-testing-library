@@ -1,3 +1,9 @@
+## [3.0.35](https://github.com/1024pix/ember-testing-library/compare/v3.0.34...v3.0.35) (2026-07-08)
+
+### :arrow_up: Montée de version
+
+- [#201](https://github.com/1024pix/ember-testing-library/pull/201) Update dependency @ember/optional-features to v3 (dossier racine)
+
 ## [3.0.34](https://github.com/1024pix/ember-testing-library/compare/v3.0.33...v3.0.34) (2026-07-07)
 
 ### :arrow_up: Montée de version
