@@ -1,3 +1,9 @@
+## [3.0.37](https://github.com/1024pix/ember-testing-library/compare/v3.0.36...v3.0.37) (2026-07-09)
+
+### :arrow_up: Montée de version
+
+- [#152](https://github.com/1024pix/ember-testing-library/pull/152) Update dependency ember-qunit to v9 (dossier racine)
+
 ## [3.0.36](https://github.com/1024pix/ember-testing-library/compare/v3.0.35...v3.0.36) (2026-07-09)
 
 ### :arrow_up: Montée de version
