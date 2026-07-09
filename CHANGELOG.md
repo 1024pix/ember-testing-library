@@ -1,3 +1,9 @@
+## [3.0.36](https://github.com/1024pix/ember-testing-library/compare/v3.0.35...v3.0.36) (2026-07-09)
+
+### :arrow_up: Montée de version
+
+- [#198](https://github.com/1024pix/ember-testing-library/pull/198) Update actions/checkout action to v6 (workflows)
+
 ## [3.0.35](https://github.com/1024pix/ember-testing-library/compare/v3.0.34...v3.0.35) (2026-07-08)
 
 ### :arrow_up: Montée de version
