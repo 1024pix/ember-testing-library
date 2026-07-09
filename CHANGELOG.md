@@ -1,3 +1,9 @@
+## [3.0.40](https://github.com/1024pix/ember-testing-library/compare/v3.0.39...v3.0.40) (2026-07-09)
+
+### :bug: Correction
+
+- [#207](https://github.com/1024pix/ember-testing-library/pull/207) Fix test launch
+
 ## [3.0.39](https://github.com/1024pix/ember-testing-library/compare/v3.0.38...v3.0.39) (2026-07-09)
 
 ### :arrow_up: Montée de version
