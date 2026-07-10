@@ -1,3 +1,9 @@
+## [3.0.41](https://github.com/1024pix/ember-testing-library/compare/v3.0.40...v3.0.41) (2026-07-10)
+
+### :arrow_up: Montée de version
+
+- [#204](https://github.com/1024pix/ember-testing-library/pull/204) Update dependency ember-cli-htmlbars to v7 (dossier racine)
+
 ## [3.0.40](https://github.com/1024pix/ember-testing-library/compare/v3.0.39...v3.0.40) (2026-07-09)
 
 ### :bug: Correction
