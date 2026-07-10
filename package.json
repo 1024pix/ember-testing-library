@@ -41,7 +41,7 @@
     "broccoli-funnel": "^3.0.8",
     "ember-auto-import": "^2.6.0",
     "ember-cli-babel": "^8.0.0",
-    "ember-cli-htmlbars": "^6.3.0"
+    "ember-cli-htmlbars": "^7.0.0"
   },
   "devDependencies": {
     "@1024pix/eslint-plugin": "^2.1.19",
