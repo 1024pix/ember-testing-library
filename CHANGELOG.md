@@ -1,3 +1,9 @@
+## [3.0.42](https://github.com/1024pix/ember-testing-library/compare/v3.0.41...v3.0.42) (2026-08-25)
+
+### :arrow_up: Montée de version
+
+- [#210](https://github.com/1024pix/ember-testing-library/pull/210) Pin dependencies
+
 ## [3.0.41](https://github.com/1024pix/ember-testing-library/compare/v3.0.40...v3.0.41) (2026-07-10)
 
 ### :arrow_up: Montée de version
