@@ -1,3 +1,9 @@
+## [3.0.44](https://github.com/1024pix/ember-testing-library/compare/v3.0.43...v3.0.44) (2026-08-27)
+
+### :arrow_up: Montée de version
+
+- [#213](https://github.com/1024pix/ember-testing-library/pull/213) Update dependency broccoli-funnel to v4
+
 ## [3.0.43](https://github.com/1024pix/ember-testing-library/compare/v3.0.42...v3.0.43) (2026-08-27)
 
 ### :arrow_up: Montée de version
