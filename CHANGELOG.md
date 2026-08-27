@@ -1,3 +1,9 @@
+## [3.0.43](https://github.com/1024pix/ember-testing-library/compare/v3.0.42...v3.0.43) (2026-08-27)
+
+### :arrow_up: Montée de version
+
+- [#212](https://github.com/1024pix/ember-testing-library/pull/212) Update dependency @1024pix/eslint-plugin to v3
+
 ## [3.0.42](https://github.com/1024pix/ember-testing-library/compare/v3.0.41...v3.0.42) (2026-08-25)
 
 ### :arrow_up: Montée de version

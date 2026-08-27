@@ -1,6 +1,6 @@
 {
   "name": "@1024pix/ember-testing-library",
-  "version": "3.0.42",
+  "version": "3.0.43",
   "description": "Package for Testing Library usage in Ember applications.",
   "keywords": [
     "ember-addon",
@@ -44,7 +44,7 @@
     "ember-cli-htmlbars": "^7.0.0"
   },
   "devDependencies": {
-    "@1024pix/eslint-plugin": "^2.1.19",
+    "@1024pix/eslint-plugin": "^3.0.0",
     "@babel/eslint-parser": "^7.11.0",
     "@babel/plugin-proposal-decorators": "^7.20.0",
     "@ember/optional-features": "^3.0.0",
